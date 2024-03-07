@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: url(Imagens/nike’s-best-casual-shoes-for-everyday-wear.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 48px;
+
+}
+
+header .logo{
+    width: 150px;
+}
+
+.navi ul{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.navi ul a{
+    color: #FFD78A;
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all .1s;
+}
+
+.navi ul li a:hover{
+    border-bottom: 5px solid salmon;
+}
+
+.navi .pesquisa{
+    width: 25px;
+    cursor: pointer;
+}
+
+.navi .cadastro{
+    width: 25px;
+    cursor: pointer;
+}
+
+.navi ul img:hover{
+    border-bottom: 10px solid salmon;
+}
