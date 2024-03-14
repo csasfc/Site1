@@ -8,6 +8,7 @@
     text-decoration: none;
 }
 
+
 body{
     background: url(img/2nike’s-best-casual-shoes-for-everyday-wear.jpg);
     background-repeat: no-repeat;
@@ -61,4 +62,37 @@ header .logo{
 
 .navi ul img:hover{
     border-bottom: 10px solid salmon;
+}
+
+#secao {
+
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 10000px;
+    margin: 0 auto;
+}
+
+#secao > div {
+    flex: 1 1 250px;
+    margin: 5px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+#secao img {
+    width: 250px;
+    height: 9vh;
+}
+
+#texto {
+    color: #FFD78A;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    display: flex;
+    align-items:flex-start
 }
