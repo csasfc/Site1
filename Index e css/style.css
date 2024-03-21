@@ -113,12 +113,6 @@ grid-gap: 20px;
    align-items: center;
 }
 
-.grid1 > div.anuncio {
-    grid-column: 1;
-    grid-row: 2/5;
-    border-top: 10px solid #FFD78A;
-    display: block;
-}
 
 @media (max-width: 600px){
     .grid1{
@@ -138,4 +132,8 @@ grid-gap: 20px;
     border-bottom: 2px solid transparent;
     transition: all .1s;
 
+}
+
+.grid1 > div:hover{
+    border-bottom: 5px solid salmon;
 }
