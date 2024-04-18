@@ -7,6 +7,7 @@
     <meta name="description" content="Conheça e compra os melhores tênis do momento">
 <!-- ######## Link Css: ######## -->
     <link rel="stylesheet" href="style.css">
+    <script src="img/script.js" defer></script>
     <title>Sneakers</title>
 </head>
 <body>
@@ -48,41 +49,68 @@
     <section class="grid1">
         <div>
             <img src="img/img1.png" alt="">
-            <p>Dunk Low Club 58</p>
-        </div>
-        <div>
-            <img src="img/img2.png" alt="">
             <p>Dunk Ben Jerrys</p>
         </div>
         <div>
-            <img src="img/img1.png" alt="">
+            <img src="img/img2.png" alt="">
             <p>Dunk Low Club 58</p>
         </div>
         <div>
-            <img src="img/img2.png" alt="">
+            <img src="img/img1.png" alt="">
             <p>Dunk Ben Jerrys</p>
         </div>
         <div>
-            <img src="img/img1.png" alt="">
-            <p>Dunk Low Club 58</p>
-        </div>
-        <div>
-            <img src="img/img2.png" alt="">
-            <p>Dunk Ben Jerrys</p>
-        </div>
-        <div>
-            <img src="img/img1.png" alt="">
-            <p>Dunk Low Club 58</p>
-        </div>
-        <div>
-            <img src="img/img2.png" alt="">
-            <p>Dunk Ben Jerrys</p>
-        </div>
-        <div>
-            <img src="img/img1.png" alt="">
-            <p>Dunk Low Club 58</p>
-        </div>
+     
          
     </section>
+
+    <section id="secao-orcamento">
+        <h2>Faça um pedido</h2>
+
+        <form action="">
+            <div class="campo linha">
+                <label for="nome">Modelo</label>
+                <input type="text" id="nome">
+            </div>
+            
+            <div class="campo">
+                <label for="qtde">Quantidade</label>
+                <input type="number" id="qtde" min="1" value="1">
+            </div>
+            
+            <div class="campo">
+                <label for="tipo">Marca</label>
+                <select name="tipo" id="tipo">
+                    <option value="1">Nike</option>
+                    <option value="2">Adidas</option>
+                    <option value="3">New Balance</option>
+                    <option value="4">Asics</option>
+                </select>
+            </div>
+
+            <div class="campo linha">
+                <label for="">Precisa de Double Box (+ 100R$ por tênis)?</label>
+                <div>
+                    <input name="prototipo" type="radio" id="prototipo_sim">
+                    <label for="prototipo_sim">sim, preciso</label>
+                </div>
+                <div>
+                    <input name="prototipo" type="radio" id="prototipo_nao">
+                    <label for="prototipo_nao">não, não é necessário.</label>
+                </div>
+            </div>
+            
+
+            <div class="campo linha">
+                <label for="prazo">Prazo</label>
+                <input type="range">
+            </div>
+
+        </form>
+        
+        <span id="orcamento">R$ 999,00</span>
+    </section>
+
+
 </body>
 </html>

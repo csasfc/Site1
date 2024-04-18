@@ -9,14 +9,11 @@
 }
 
 
+
 body{
     background: url(img/2nike’s-best-casual-shoes-for-everyday-wear.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    min-height: 100%;
-    background-attachment: fixed;
 }
 
 
@@ -25,7 +22,12 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 50px 48px;
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 header .logo{
@@ -136,4 +138,63 @@ grid-gap: 20px;
 
 .grid1 > div:hover{
     border-bottom: 5px solid salmon;
+}
+
+#secao-orcamento{
+    height: 100vh;
+    padding: 3rem;
+}
+
+#secao-orcamento form{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    grid-column: 1 / 3;
+}
+
+input[type=text],
+input[type=number],
+select
+{
+    color: #FFD78A;
+    background-color: #272537;
+    color: #FFD78A;
+    border-radius: .25rem;
+    border: 0;
+    padding: .5rem;
+}
+
+
+input[type=radio],
+input[type=checkbox],
+input[type=range]{
+    accent-color: #F0C;
+}
+
+#secao-orcamento{
+    color: #FFD78A;
+    display: inline-flexbox;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    display: block;
+  
+
+}
+
+#secao-orcamento h2{
+    align-self: center;
+    
+
 }
